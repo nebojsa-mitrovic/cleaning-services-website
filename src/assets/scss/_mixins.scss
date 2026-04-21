@@ -1,24 +1,24 @@
 // Responsive mixins
 @mixin large-screen {
-	@media only screen and(max-width: 1200px) {
+	@media only screen and (max-width: 1200px) {
 		@content;
 	}
 }
 
 @mixin medium-screen {
-	@media only screen and(max-width: 992px) {
+	@media only screen and (max-width: 992px) {
 		@content;
 	}
 }
 
 @mixin small-screen {
-	@media only screen and(max-width: 767px) {
+	@media only screen and (max-width: 767px) {
 		@content;
 	}
 }
 
 @mixin extra-small-screen {
-	@media only screen and(max-width: 576px) {
+	@media only screen and (max-width: 576px) {
 		@content;
 	}
 }

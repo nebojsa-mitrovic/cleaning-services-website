@@ -1,7 +1,7 @@
 const { src, dest, watch, series, parallel } = require("gulp"),
 	imagemin = require("gulp-imagemin"),
 	sourcemaps = require("gulp-sourcemaps"),
-	sass = require("gulp-sass"),
+	sass = require("gulp-sass")(require("sass")),
 	concat = require("gulp-concat"),
 	terser = require("gulp-terser"),
 	postcss = require("gulp-postcss"),

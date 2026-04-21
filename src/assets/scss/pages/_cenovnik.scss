@@ -1,163 +1,164 @@
 // Cenovnik page
 .showcase-prices {
-	background: url("../img/showcase/showcase-prices.webp") no-repeat center center/cover;
+  background: url('../img/showcase/showcase-prices.webp') no-repeat center
+    center/cover;
 }
 
 .prices {
-	padding: 80px 0;
+  padding: 80px 0;
 
-	&__content {
-		display: grid;
-		grid-template-columns: repeat(6, 1fr);
-		gap: 0.5rem;
-		margin: 40px 10%;
-		text-align: center;
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+    margin: 40px 10%;
+    text-align: center;
 
-		@include large-screen {
-			grid-template-columns: repeat(3, 1fr);
-		}
+    @include large-screen {
+      grid-template-columns: repeat(3, 1fr);
+    }
 
-		@include small-screen {
-			grid-template-columns: repeat(1, 1fr);
-		}
-	}
+    @include small-screen {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
 }
 
 .pricecard {
-	height: 40rem;
-	position: relative;
-	backface-visibility: hidden;
+  height: 40rem;
+  position: relative;
+  backface-visibility: hidden;
 
-	&:hover .pricecard__side--front {
-		transform: rotateY(-180deg);
-	}
+  &:hover .pricecard__side--front {
+    transform: rotateY(-180deg);
+  }
 
-	&:hover .pricecard__side--back {
-		transform: rotateY(0);
-	}
+  &:hover .pricecard__side--back {
+    transform: rotateY(0);
+  }
 
-	&__side {
-		background: $white;
-		height: 40rem;
-		width: 100%;
-		transition: all 1s ease;
-		position: absolute;
-		top: 0;
-		left: 0;
-		backface-visibility: hidden;
-		overflow: hidden;
-		box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  &__side {
+    background: $white;
+    height: 40rem;
+    width: 100%;
+    transition: all 1s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
 
-		&--back {
-			background: $secondary-color;
-			transform: rotateY(180deg);
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			text-align: center;
-			flex-direction: column;
-			color: $white;
+    &--back {
+      background: $secondary-color;
+      transform: rotateY(180deg);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      color: $white;
 
-			@include medium-screen {
-				padding: 25px;
-			}
+      @include medium-screen {
+        padding: 25px;
+      }
 
-			.btn {
-				@include medium-screen {
-					width: 170px;
-				}
-			}
-		}
-	}
+      .btn {
+        @include medium-screen {
+          width: 170px;
+        }
+      }
+    }
+  }
 
-	&__img {
-		height: 15rem;
-		margin-bottom: 1rem;
-		clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
+  &__img {
+    height: 15rem;
+    margin-bottom: 1rem;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
-		&--1 {
-			background-image: url("../img/prices/prices-1.webp");
-		}
-		&--2 {
-			background-image: url("../img/prices/prices-2.webp");
-		}
-		&--3 {
-			background-image: url("../img/prices/prices-3.webp");
-		}
-		&--4 {
-			background-image: url("../img/prices/prices-4.webp");
-		}
-		&--5 {
-			background-image: url("../img/prices/prices-5.webp");
-		}
-		&--6 {
-			background-image: url("../img/prices/prices-6.webp");
-		}
-	}
+    &--1 {
+      background-image: url('../img/services/services-1.webp');
+    }
+    &--2 {
+      background-image: url('../img/services/services-2.webp');
+    }
+    &--3 {
+      background-image: url('../img/services/services-3.webp');
+    }
+    &--4 {
+      background-image: url('../img/services/services-4.webp');
+    }
+    &--5 {
+      background-image: url('../img/services/services-5.webp');
+    }
+    &--6 {
+      background-image: url('../img/services/services-6.webp');
+    }
+  }
 
-	&__price {
-		font-size: 2.5em;
-		margin: 0;
-		font-weight: bold;
-	}
+  &__price {
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: bold;
+  }
 
-	&__period {
-		font-size: 1.5em;
-		margin-bottom: 50px;
-	}
+  &__period {
+    font-size: 1.5em;
+    margin-bottom: 50px;
+  }
 
-	&__title {
-		background: $primary-color-transparent;
-		color: #fff;
-		font-size: 1.2em;
-		padding: 10px;
+  &__title {
+    background: $primary-color-transparent;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 10px;
 
-		h4 {
-			display: inline;
-			font-size: 1.4em;
-		}
-	}
+    h4 {
+      display: inline;
+      font-size: 1.4em;
+    }
+  }
 
-	&__content {
-		p {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			text-align: center;
-			height: 70px;
-			font-size: 0.8em;
-			padding: 3px;
-			margin: 0;
-			border-bottom: 1px solid $primary-color;
+  &__content {
+    p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 70px;
+      font-size: 0.8em;
+      padding: 3px;
+      margin: 0;
+      border-bottom: 1px solid $primary-color;
 
-			.far {
-				font-size: 1.2em;
-				margin-right: 5px;
-			}
+      .far {
+        font-size: 1.2em;
+        margin-right: 5px;
+      }
 
-			.fa-check-circle {
-				color: $green;
-			}
+      .fa-check-circle {
+        color: $green;
+      }
 
-			.fa-clock {
-				color: $purple;
-			}
+      .fa-clock {
+        color: $purple;
+      }
 
-			.fa-times-circle {
-				color: $red;
-			}
+      .fa-times-circle {
+        color: $red;
+      }
 
-			&:nth-child(odd) {
-				background: $white;
-			}
+      &:nth-child(odd) {
+        background: $white;
+      }
 
-			&:nth-child(even) {
-				background: $light-color;
-			}
-		}
-	}
+      &:nth-child(even) {
+        background: $light-color;
+      }
+    }
+  }
 }

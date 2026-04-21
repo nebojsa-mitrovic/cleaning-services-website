@@ -1,197 +1,453 @@
-<!DOCTYPE html>
+﻿<!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="description" content="Čista kuća Vam nudi da Vaš dom uvek blista. Vršimo generalno čišćenje Vaših stanova. Uverite se u naš rad." />
-		<meta name="keywords" content="Čista kuća, blistavo, uređivanje, čista, kuća" />
-		<link rel="icon" href="favicon.ico" type="image/x-icon" />
-		<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet" />
-		<link rel="stylesheet" href="css/main.css" />
-		<script type="text/javascript" src="js/all.js"></script>
-		<title>Čista kuća | Čišćenje kuća i stanova | Paketi</title>
-	</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Čista kuća Vam nudi da Vaš dom uvek blista. Vršimo generalno čišćenje Vaših stanova. Uverite se u naš rad."
+    />
+    <meta
+      name="keywords"
+      content="Čista kuća, blistavo, uređivanje, čista, kuća"
+    />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <script type="text/javascript" src="js/all.js"></script>
+    <title>Čista kuća | Čišćenje kuća i stanova | Paketi</title>
+  </head>
 
-	<body>
-		<header id="header-home">
-			<nav id="main-nav">
-				<div class="navbrand">
-					<a href="index.html">
-						<img src="./img/logo/cista-kuca-horizontal-logo.webp" alt="Čista Kuća Logo" />
-					</a>
-					<div class="burger" id="burger">
-						<span class="burger-open">
-							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="16">
-								<g fill="#252a32" fill-rule="evenodd">
-									<path d="M0 0h24v2H0zM0 7h24v2H0zM0 14h24v2H0z" />
-								</g>
-							</svg>
-						</span>
-						<span class="burger-close">
-							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
-								<path
-									fill="#252a32"
-									fill-rule="evenodd"
-									d="M17.778.808l1.414 1.414L11.414 10l7.778 7.778-1.414 1.414L10 11.414l-7.778 7.778-1.414-1.414L8.586 10 .808 2.222 2.222.808 10 8.586 17.778.808z"
-								/>
-							</svg>
-						</span>
-					</div>
-				</div>
+  <body>
+    <header id="header-home">
+      <nav id="main-nav">
+        <div class="navbrand">
+          <a href="index.html">
+            <img
+              src="./img/logo/cista-kuca-horizontal-logo.webp"
+              alt="Čista Kuća Logo"
+            />
+          </a>
+          <div class="burger" id="burger">
+            <span class="burger-open">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16">
+                <g fill="#252a32" fill-rule="evenodd">
+                  <path d="M0 0h24v2H0zM0 7h24v2H0zM0 14h24v2H0z" />
+                </g>
+              </svg>
+            </span>
+            <span class="burger-close">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                <path
+                  fill="#252a32"
+                  fill-rule="evenodd"
+                  d="M17.778.808l1.414 1.414L11.414 10l7.778 7.778-1.414 1.414L10 11.414l-7.778 7.778-1.414-1.414L8.586 10 .808 2.222 2.222.808 10 8.586 17.778.808z"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
 
-				<ul class="menu" id="menu">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="/usluge.html">Usluge</a></li>
-					<li><a href="/cenovnik.html">Cenovnik</a></li>
-					<li><a href="/paketi.html" class="current">Paketi</a></li>
-					<li><a href="/o-nama.html">O Nama</a></li>
-					<li class="contact-menu"><a href="mailto:cistakucans@gmail.com">Kontakt</a></li>
-				</ul>
-			</nav>
-		</header>
+        <ul class="menu" id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="/usluge.html">Usluge</a></li>
+          <li><a href="/cenovnik.html">Cenovnik</a></li>
+          <li><a href="/paketi.html" class="current">Paketi</a></li>
+          <li><a href="/o-nama.html">O Nama</a></li>
+          <li class="contact-menu">
+            <a href="mailto:cistakucans@gmail.com">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-		<section class="showcase showcase-packages">
-			<div class="container">
-				<div class="showcase-content">
-					<h1>Pretplatnički paketi za usluge čišćenja</h1>
-				</div>
-			</div>
-		</section>
+    <section class="showcase showcase-packages">
+      <div class="container">
+        <div class="showcase-content">
+          <h1>Pretplatnički paketi za usluge čišćenja</h1>
+        </div>
+      </div>
+    </section>
 
-		<section class="packages">
-			<div class="container">
-				<div class="page-headline" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in-out">
-					<p>
-						Vreme darivanja kod nas traje celu godinu! Pretplatite se na jedan od naših paketa i uštedite do 20% popusta na redovne cene naših usluga.
-						Paketi vrede za čišćenje stambenih i poslovnih objekata.
-					</p>
-					<p>
-						Naša redovna cena čišćenja iznosi 1400 dinara po satu, a u najpovoljnijem paketu snižena je čak na 1000 dinara. Ne propustite jedinstvenu
-						priliku!
-					</p>
-					<h2>Mi čistimo više, Vi plaćate manje!</h2>
-				</div>
+    <section class="packages">
+      <div class="container">
+        <div
+          class="page-headline"
+          data-aos="fade-down"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+        >
+          <p>
+            Pogledajte naše najpopularnije pakete i izaberite onaj koji Vam
+            najviše odgovara. Naši paketi omogućavaju redovno održavanje čistoće
+            Vašeg prostora i povoljnije uslove u odnosu na pojedinačne usluge.
+          </p>
+          <h2>Mi čistimo više, Vi plaćate manje!</h2>
+        </div>
 
-				<div class="packages__content">
-					<div class="card" data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in-out">
-						<div class="card__img card__img--1"></div>
-						<p class="card__price">1200<sup>RSD</sup></p>
-						<p class="card__period">/sat</p>
-						<div class="card__title">
-							<i class="far fa-star"></i>
-							<h4>Čisti paket</h4>
-						</div>
-						<div class="card__content">
-							<p><strong>PRETPLATA: 6 meseci</strong></p>
-							<p>Oprema i sredstva za čišćenje</p>
-							<p>Ušteda od 6%</p>
-							<p>Minimalno 3h čišćenja</p>
-							<p>Nepromjenjiva cena</p>
-							<p>Korisnička podrška 24/7</p>
-							<p>Probni period - 1 čišćenje</p>
-							<p>PDV uključen u cenu</p>
-						</div>
-						<div class="card__btn">
-							<span class="btn">Naručite paket</span>
-						</div>
-					</div>
+        <div class="packages__content">
+          <div
+            class="card"
+            data-aos="fade-right"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+          >
+            <div class="card__img card__img--1"></div>
+            <p class="card__price">1000<sup>RSD</sup></p>
+            <p class="card__period">/sat</p>
+            <div class="card__title">
+              <i class="far fa-star"></i>
+              <h4>OSNOVNI</h4>
+            </div>
+            <div class="card__content">
+              <p>✔ osnovno čišćenje prostora</p>
+              <p>✔ usisavanje i brisanje podova</p>
+              <p>✔ brisanje prašine sa dostupnih površina</p>
+              <p>✔ osnovno sređivanje doma</p>
+              <p>✔ pražnjenje kanti</p>
+              <p>
+                <strong
+                  >za povremeno i lagano održavanje čistog prostora</strong
+                >
+              </p>
+              <p>
+                <strong>DODATNO:</strong> hitno čišćenje → 30%<br />
+                jako zaprljani prostori → 30%<br />
+                posle renoviranja → 1.500–2.000 RSD/sat<br />
+                pranje prozora → po dogovoru
+              </p>
+            </div>
+            <div class="card__btn">
+              <a href="mailto:cistakucans@gmail.com" class="btn">Naručite paket</a>
+            </div>
+          </div>
 
-					<div class="card card__highlight" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
-						<div class="card__img card__img--2"></div>
-						<p class="card__price">1000<sup>RSD</sup></p>
-						<p class="card__period">/sat</p>
-						<div class="card__title">
-							<i class="far fa-star"></i>
-							<h4>Sjajni paket</h4>
-						</div>
-						<div class="card__content">
-							<p><strong>PRETPLATA: 12 meseci</strong></p>
-							<p>Oprema i sredstva za čišćenje</p>
-							<p>Ušteda od 13%</p>
-							<p>Minimalno 6h čišćenja</p>
-							<p>Nepromjenjiva cena</p>
-							<p>Korisnička podrška 24/7</p>
-							<p>Probni period - 15 dana</p>
-							<p>Last minute rezervacije</p>
-							<p>Poklon paket</p>
-							<p>PDV uključen u cenu</p>
-						</div>
-						<div class="card__btn">
-							<span class="btn-secondary">Naručite paket</span>
-						</div>
-					</div>
+          <div
+            class="card card__highlight"
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+          >
+            <div class="card__img card__img--2"></div>
+            <p class="card__price">1200<sup>RSD</sup></p>
+            <p class="card__period">/sat</p>
+            <div class="card__title">
+              <i class="far fa-star"></i>
+              <h4>REDOVNI</h4>
+            </div>
+            <div class="card__content">
+              <p>✔ sve iz OSNOVNOG paketa</p>
+              <p>✔ detaljno čišćenje kuhinje</p>
+              <p>✔ detaljno čišćenje kupatila</p>
+              <p>✔ temeljno brisanje svih površina</p>
+              <p>✔ kompletno održavanje glavnih prostorija</p>
+              <p>
+                <strong
+                  >najčešći izbor klijenata za redovno održavanje doma</strong
+                >
+              </p>
+              <p>
+                <strong>DODATNO:</strong> hitno čišćenje → 30%<br />
+                jako zaprljani prostori → 30%<br />
+                posle renoviranja → 1.500–2.000 RSD/sat<br />
+                pranje prozora → po dogovoru
+              </p>
+            </div>
+            <div class="card__btn">
+              <a href="mailto:cistakucans@gmail.com" class="btn-secondary">Naručite paket</a>
+            </div>
+          </div>
 
-					<div class="card" data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in-out">
-						<div class="card__img card__img--3"></div>
-						<p class="card__price">1000<sup>RSD</sup></p>
-						<p class="card__period">/sat</p>
-						<div class="card__title">
-							<i class="far fa-star"></i>
-							<h4>Blistavi paket</h4>
-						</div>
-						<div class="card__content">
-							<p><strong>PRETPLATA: 24 meseca</strong></p>
-							<p>Oprema i sredstva za čišćenje</p>
-							<p>Ušteda od 20%</p>
-							<p>Minimalno 10h čišćenja</p>
-							<p>Nepromjenjiva cena</p>
-							<p>Korisnička podrška 24/7</p>
-							<p>Probni period - 1 mesec</p>
-							<p>Last minute rezervacije</p>
-							<p>Poklon paket</p>
-							<p>Program vernosti</p>
-							<p>Dubinsko čišćenje: 1 komad</p>
-							<p>PDV uključen u cenu</p>
-						</div>
-						<div class="card__btn">
-							<span class="btn">Naručite paket</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+          <div
+            class="card"
+            data-aos="fade-right"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+          >
+            <div class="card__img card__img--3"></div>
+            <p class="card__price">1400<sup>RSD</sup></p>
+            <p class="card__period">/sat</p>
+            <div class="card__title">
+              <i class="far fa-star"></i>
+              <h4>DETALJNI</h4>
+            </div>
+            <div class="card__content">
+              <p>✔ sve iz REDOVNOG paketa</p>
+              <p>✔ dubinsko i detaljno čišćenje celog prostora</p>
+              <p>✔ fokus na zaprljane i zahtevne površine</p>
+              <p>✔ čišćenje teško dostupnih mesta</p>
+              <p>✔ završno “fine cleaning” sređivanje prostora</p>
+              <p>
+                <strong
+                  >za maksimalnu čistoću i profesionalni rezultat bez
+                  kompromisa</strong
+                >
+              </p>
+              <p>
+                <strong>DODATNO:</strong> hitno čišćenje → 30%<br />
+                jako zaprljani prostori → 30%<br />
+                posle renoviranja → 1.500–2.000 RSD/sat<br />
+                pranje prozora → po dogovoru
+              </p>
+            </div>
+            <div class="card__btn">
+              <a href="mailto:cistakucans@gmail.com" class="btn">Naručite paket</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-		<footer>
-			<div id="footer">
-				<div class="container">
-					<div class="footer-container">
-						<div class="footer-column-1">
-							<h4>Informacije</h4>
-							<p>
-								<i class="fas fa-phone"></i>
-								<a href="tel:123-456-7890">123-456-7890</a>
-							</p>
-							<p>
-								<i class="fas fa-at"></i>
-								<a href="mailto:info@cistakuca.com">info@cistakuca.com</a>
-							</p>
-							<p>
-								<i class="fas fa-map-marker"></i>
-								Novi Sad
-							</p>
-						</div>
-						<div class="footer-column-2">
-							<h4>Menu</h4>
-							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li><a href="/usluge.html">Usluge</a></li>
-								<li><a href="/cenovnik.html">Cenovnik</a></li>
-								<li><a href="/paketi.html">Paketi</a></li>
-								<li><a href="/o-nama.html">O Nama</a></li>
-								<li><span>Kontakt</span></li>
-							</ul>
-						</div>
-						<div class="footer-column-2">
-							<h4>Legalni dokumenti</h4>
-							<ul>
-								<li><a href="/pravila-privatnosti.html">Pravila privatnosti</a></li>
-								<li><a href="/uslovi.html">Uslovi</a></li>
-								<li><a href="/kolacici.html">Kolačići</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-	</body>
+    <section class="packages light-bg">
+      <div class="container">
+        <div
+          class="page-headline"
+          data-aos="fade-down"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+        >
+          <h2>Jedinstveni sistem – po veličini posla</h2>
+        </div>
+
+        <div class="packages__content">
+          <div
+            class="card"
+            data-aos="fade-right"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+          >
+            <div class="card__img card__img--1"></div>
+            <p class="card__price card__price--model">2.500–3.500<sup>RSD</sup></p>
+            <p class="card__period">po dolasku</p>
+            <div class="card__title">
+              <i class="far fa-star"></i>
+              <h4>Mali rad</h4>
+            </div>
+            <div class="card__content">
+              <p>✔ garsonjere</p>
+              <p>✔ male kancelarije</p>
+              <p>✔ brzo održavanje</p>
+              <p>
+                <strong>Dodatno:</strong> hitno čišćenje → 30%<br />
+                jako zaprljani prostori → 30%<br />
+                posle renoviranja → 1.500–2.000 RSD/sat<br />
+                pranje prozora → po dogovoru
+              </p>
+            </div>
+            <div class="card__btn">
+              <a href="mailto:cistakucans@gmail.com" class="btn">Pošaljite upit</a>
+            </div>
+          </div>
+
+          <div
+            class="card card__highlight"
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+          >
+            <div class="card__img card__img--2"></div>
+            <p class="card__price card__price--model">3.500–5.000<sup>RSD</sup></p>
+            <p class="card__period">po dolasku</p>
+            <div class="card__title">
+              <i class="far fa-star"></i>
+              <h4>Srednji rad</h4>
+            </div>
+            <div class="card__content">
+              <p>✔ 1–2 sobna stana</p>
+              <p>✔ saloni / kancelarije</p>
+              <p>✔ standardno čišćenje</p>
+              <p>
+                <strong>Dodatno:</strong> hitno čišćenje → 30%<br />
+                jako zaprljani prostori → 30%<br />
+                posle renoviranja → 1.500–2.000 RSD/sat<br />
+                pranje prozora → po dogovoru
+              </p>
+            </div>
+            <div class="card__btn">
+              <a href="mailto:cistakucans@gmail.com" class="btn-secondary">Pošaljite upit</a>
+            </div>
+          </div>
+
+          <div
+            class="card"
+            data-aos="fade-right"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+          >
+            <div class="card__img card__img--3"></div>
+            <p class="card__price card__price--model">5.000–10.000+<sup>RSD</sup></p>
+            <p class="card__period">po dolasku</p>
+            <div class="card__title">
+              <i class="far fa-star"></i>
+              <h4>Veliki rad</h4>
+            </div>
+            <div class="card__content">
+              <p>✔ kuće</p>
+              <p>✔ veći stanovi</p>
+              <p>✔ detaljno čišćenje</p>
+              <p>✔ zahtevni prostori</p>
+              <p>
+                <strong>Dodatno:</strong> hitno čišćenje → 30%<br />
+                jako zaprljani prostori → 30%<br />
+                posle renoviranja → 1.500–2.000 RSD/sat<br />
+                pranje prozora → po dogovoru
+              </p>
+            </div>
+            <div class="card__btn">
+              <a href="mailto:cistakucans@gmail.com" class="btn">Pošaljite upit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="packages">
+      <div class="container">
+        <div
+          class="page-headline"
+          data-aos="fade-down"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+        >
+          <h2>Poslovni model – stalni klijenti</h2>
+        </div>
+
+        <div class="packages__content">
+          <div
+            class="card"
+            data-aos="fade-right"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+          >
+            <div class="card__img card__img--1"></div>
+            <p class="card__price card__price--model">9.000–25.000<sup>RSD</sup></p>
+            <p class="card__period">mesečno</p>
+            <div class="card__title">
+              <i class="far fa-star"></i>
+              <h4>Poslovni prostori</h4>
+            </div>
+            <div class="card__content">
+              <p>✔ 2–5 dolazaka nedeljno</p>
+              <p>✔ kancelarije, saloni, lokali</p>
+              <p>
+                <strong>Dodatno:</strong> hitno čišćenje → 30%<br />
+                jako zaprljani prostori → 30%<br />
+                posle renoviranja → 1.500–2.000 RSD/sat<br />
+                pranje prozora → po dogovoru
+              </p>
+            </div>
+            <div class="card__btn">
+              <a href="mailto:cistakucans@gmail.com" class="btn">Pošaljite upit</a>
+            </div>
+          </div>
+
+          <div
+            class="card card__highlight"
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+          >
+            <div class="card__img card__img--2"></div>
+            <p class="card__price card__price--model">7.000–20.000<sup>RSD</sup></p>
+            <p class="card__period">po ulazu mesečno</p>
+            <div class="card__title">
+              <i class="far fa-star"></i>
+              <h4>Održavanje zgrada</h4>
+            </div>
+            <div class="card__content">
+              <p>✔ osnovno / standard / premium</p>
+              <p>✔ redovno čišćenje ulaza i stepeništa</p>
+              <p>
+                <strong>Dodatno:</strong> hitno čišćenje → 30%<br />
+                jako zaprljani prostori → 30%<br />
+                posle renoviranja → 1.500–2.000 RSD/sat<br />
+                pranje prozora → po dogovoru
+              </p>
+            </div>
+            <div class="card__btn">
+              <a href="mailto:cistakucans@gmail.com" class="btn-secondary">Pošaljite upit</a>
+            </div>
+          </div>
+
+          <div
+            class="card"
+            data-aos="fade-right"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+          >
+            <div class="card__img card__img--3"></div>
+            <p class="card__price card__price--model">3.000–8.000<sup>RSD</sup></p>
+            <p class="card__period">po dolasku</p>
+            <div class="card__title">
+              <i class="far fa-star"></i>
+              <h4>Kuće premium</h4>
+            </div>
+            <div class="card__content">
+              <p>✔ redovno održavanje</p>
+              <p>✔ detaljno čišćenje</p>
+              <p>✔ kompletne kuće</p>
+              <p>
+                <strong>Dodatno:</strong> hitno čišćenje → 30%<br />
+                jako zaprljani prostori → 30%<br />
+                posle renoviranja → 1.500–2.000 RSD/sat<br />
+                pranje prozora → po dogovoru
+              </p>
+            </div>
+            <div class="card__btn">
+              <a href="mailto:cistakucans@gmail.com" class="btn">Pošaljite upit</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <footer>
+      <div id="footer">
+        <div class="container">
+          <div class="footer-container">
+            <div class="footer-column-1">
+              <h4>Informacije</h4>
+              <p>
+                <i class="fas fa-phone"></i>
+                <a href="tel:123-456-7890">123-456-7890</a>
+              </p>
+              <p>
+                <i class="fas fa-at"></i>
+                <a href="mailto:info@cistakuca.com">info@cistakuca.com</a>
+              </p>
+              <p>
+                <i class="fas fa-map-marker"></i>
+                Novi Sad
+              </p>
+            </div>
+            <div class="footer-column-2">
+              <h4>Menu</h4>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/usluge.html">Usluge</a></li>
+                <li><a href="/cenovnik.html">Cenovnik</a></li>
+                <li><a href="/paketi.html">Paketi</a></li>
+                <li><a href="/o-nama.html">O Nama</a></li>
+                <li><span>Kontakt</span></li>
+              </ul>
+            </div>
+            <div class="footer-column-2">
+              <h4>Legalni dokumenti</h4>
+              <ul>
+                <li>
+                  <a href="/pravila-privatnosti.html">Pravila privatnosti</a>
+                </li>
+                <li><a href="/uslovi.html">Uslovi</a></li>
+                <li><a href="/kolacici.html">Kolačići</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
